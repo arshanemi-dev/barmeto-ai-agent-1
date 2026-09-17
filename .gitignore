@@ -34,3 +34,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Desktop output and local runtime state
+/dist/
+/.desktop/
+/.barmeto/
+/test-results/
+/playwright-report/
+/admin/.next/
+/admin/node_modules/
+/admin/.env*
+!/admin/.env.example
